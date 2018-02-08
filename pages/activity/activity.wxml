@@ -1,0 +1,10 @@
+<view>
+  <text>activity</text>
+  <block wx:if="{{condition}}">
+    <view>view1</view>
+    <view>view2</view>
+  </block>
+  <view wx:for="{{users}}">
+    <text>{{index}}-{{item.name}}-{{item.age}}</text>
+  </view>
+</view>

@@ -1,0 +1,31 @@
+page{
+  background-color: #fbf9fe;
+  height: 100%
+}
+.page_hd{
+  padding: 50rpx 50rpx 100rpx 50rpx;
+  text-align: center;
+}
+.page_title{
+  display: inline-table;
+  padding: 20rpx 40rpx;
+  font-size: 32rpx;
+  color:#aaa;
+  border-bottom: 1px solid #ccc;
+}
+.container{
+  justify-content: flex-start;
+  padding: 30rpx 0;
+}
+.container input{
+  background-color: #eee;
+  border-radius: 3px;
+  text-align: left;
+  width: 720rpx;
+  height: 100rpx;
+  line-height:100rpx;
+  margin:20rpx;
+}
+.container button{
+  width: 80%;
+}
